@@ -64,8 +64,8 @@ export default function Hero() {
             <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-rose-300/40 to-rose-100/0 blur-2xl" aria-hidden="true" />
             <div className="relative h-64 w-64 sm:h-80 sm:w-80 lg:h-[22rem] lg:w-[22rem] overflow-hidden rounded-[2rem] ring-8 ring-white shadow-2xl shadow-rose-900/10">
               <Image
-                src="/doctora-placeholder.svg"
-                alt="Retrato de la Dra. Maria Hernandez N."
+                src="/doctora.jpeg"
+                alt="Retrato de la Dra. María Hernández N."
                 fill
                 priority
                 sizes="(max-width: 768px) 16rem, 22rem"

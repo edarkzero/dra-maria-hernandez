@@ -1,4 +1,4 @@
-# Sitio Web — Dra. Maria Hernandez N.
+# Sitio Web — Dra. María Hernández N.
 
 Sitio profesional para consulta médica, enfocado en pacientes de Venezuela y el exterior.
 Construido con **Next.js 16 + Tailwind CSS 4** y desplegado en **Vercel**.

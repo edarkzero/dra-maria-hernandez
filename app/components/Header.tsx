@@ -23,7 +23,7 @@ export default function Header() {
             M
           </span>
           <span className="hidden sm:inline">{DOCTOR_SHORT}</span>
-          <span className="sm:hidden">Dra. Maria</span>
+          <span className="sm:hidden">Dra. María</span>
         </a>
 
         <nav

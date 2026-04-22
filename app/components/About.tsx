@@ -3,7 +3,7 @@ import { MPPS_ID, COLEGIO_MEDICO_ID } from "@/lib/contact";
 export default function About() {
   // EDITAR: Reemplaza con los datos reales (universidad, especialización, años, etc.)
   const credentials = [
-    "Médico Cirujano titulada",
+    "Médico cirujano titulada con post grado en Ginecología y Obstetricia",
     "Formación continua y certificaciones actualizadas",
     "Atención a pacientes dentro y fuera de Venezuela",
     "Consultas por videollamada con total privacidad",
@@ -25,7 +25,7 @@ export default function About() {
           <div className="md:col-span-3 space-y-5 text-lg text-slate-700">
             {/* EDITAR: tu biografía real */}
             <p>
-              Soy la <strong>Dra. Maria Hernandez N.</strong>, médico dedicada a
+              Soy la <strong>Dra. María Hernández N.</strong>, médico dedicada a
               brindar atención cercana, clara y profesional a cada uno de mis
               pacientes. Creo que una buena consulta empieza escuchando con
               paciencia.
