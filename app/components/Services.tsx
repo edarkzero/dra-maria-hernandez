@@ -7,7 +7,7 @@ const services: Service[] = [
   {
     title: "Consulta médica general",
     description:
-      "Evaluación completa para cualquier síntoma o chequeo de rutina. Una conversación tranquila para entender qué te pasa y qué hacer.",
+      "Evaluación para cualquier síntoma o chequeo de rutina por videollamada. Una conversación tranquila para entender qué te pasa y qué hacer.",
     icon: (
       <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z" />
@@ -17,7 +17,7 @@ const services: Service[] = [
   {
     title: "Seguimiento de tratamiento",
     description:
-      "¿Ya estás en tratamiento? Te acompaño paso a paso para asegurarnos de que todo marche bien y ajustar lo que haga falta.",
+      "¿Ya estás en tratamiento? Te acompaño por videollamada para asegurarnos de que todo marche bien y ajustar lo que haga falta.",
     icon: (
       <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M3 12h4l3-8 4 16 3-8h4" />
@@ -37,13 +37,14 @@ const services: Service[] = [
     ),
   },
   {
-    title: "Consulta en línea",
+    title: "Venezolanos en el exterior",
     description:
-      "¿Estás fuera del país o no puedes movilizarte? Nos conectamos por videollamada desde donde estés, a la hora que te convenga.",
+      "¿Vives fuera del país? Coordinamos la hora que funcione en tu zona horaria y conversamos desde donde estés. Médico de confianza al alcance de un clic.",
     icon: (
       <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <polygon points="23 7 16 12 23 17 23 7" />
-        <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
+        <circle cx="12" cy="12" r="10" />
+        <line x1="2" y1="12" x2="22" y2="12" />
+        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
       </svg>
     ),
   },
@@ -61,8 +62,8 @@ export default function Services() {
             ¿En qué puedo ayudarte?
           </h2>
           <p className="mt-4 text-lg text-slate-700">
-            Estas son las consultas que ofrezco. Si tienes dudas sobre cuál necesitas,
-            escríbeme y lo vemos juntos.
+            Todas las consultas son <strong>en línea por videollamada</strong>.
+            Si tienes dudas sobre cuál necesitas, escríbeme y lo vemos juntos.
           </p>
         </div>
 

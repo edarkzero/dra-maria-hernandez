@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { PHONE_DISPLAY, INSTAGRAM_URL } from "@/lib/contact";
+import { PHONE_DISPLAY, INSTAGRAM_URL, MPPS_ID, COLEGIO_MEDICO_ID } from "@/lib/contact";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -25,15 +25,16 @@ export const metadata: Metadata = {
     template: "%s | Dra. Maria Hernandez N.",
   },
   description:
-    "Atención médica cercana y profesional con la Dra. Maria Hernandez N. Consultas presenciales y en línea para pacientes en Venezuela y el exterior. Agenda tu cita por WhatsApp.",
+    "Consultas médicas en línea con la Dra. Maria Hernandez N. Atención profesional y cercana para pacientes en Venezuela y el exterior por videollamada. Agenda tu cita por WhatsApp.",
   keywords: [
     "médico",
-    "consulta médica",
+    "consulta médica online",
     "doctora Venezuela",
     "Maria Hernandez",
     "telemedicina",
-    "consulta online",
+    "consulta en línea",
     "salud",
+    "videoconsulta",
   ],
   authors: [{ name: "Dra. Maria Hernandez N." }],
   alternates: { canonical: "/" },
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Dra. Maria Hernandez N.",
     title: "Dra. Maria Hernandez N. — Consulta Médica Profesional",
     description:
-      "Atención médica cercana y profesional. Agenda tu cita por WhatsApp en minutos.",
+      "Consultas médicas en línea. Atención profesional y cercana por videollamada. Agenda por WhatsApp.",
     images: [
       {
         url: "/opengraph-image",
@@ -58,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Dra. Maria Hernandez N. — Consulta Médica Profesional",
     description:
-      "Atención médica cercana y profesional. Agenda tu cita por WhatsApp.",
+      "Consultas médicas en línea. Agenda tu cita por WhatsApp.",
     images: ["/opengraph-image"],
   },
   robots: { index: true, follow: true },
@@ -82,9 +83,21 @@ const jsonLd = {
     "@type": "PostalAddress",
     addressCountry: "VE",
   },
+  identifier: [
+    {
+      "@type": "PropertyValue",
+      propertyID: "MPPS",
+      value: MPPS_ID,
+    },
+    {
+      "@type": "PropertyValue",
+      propertyID: "Colegio Médico",
+      value: COLEGIO_MEDICO_ID,
+    },
+  ],
   availableService: {
     "@type": "MedicalTherapy",
-    name: "Consulta médica presencial y en línea",
+    name: "Consulta médica en línea por videollamada",
   },
 };
 

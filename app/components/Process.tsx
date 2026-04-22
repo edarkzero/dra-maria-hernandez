@@ -13,13 +13,13 @@ const steps = [
   },
   {
     n: "3",
-    title: "Agendamos tu cita",
-    desc: "Elegimos el día y la hora que más te convenga, presencial o en línea.",
+    title: "Agendamos tu videoconsulta",
+    desc: "Elegimos el día y la hora que más te convenga. Todo por videollamada, desde donde estés.",
   },
   {
     n: "4",
     title: "Recibes atención personal",
-    desc: "Te atiendo con calma, te explico todo y acordamos los próximos pasos.",
+    desc: "Nos conectamos por videollamada, te explico todo con calma y acordamos los próximos pasos.",
   },
 ];
 

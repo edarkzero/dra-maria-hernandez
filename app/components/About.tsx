@@ -1,10 +1,12 @@
+import { MPPS_ID, COLEGIO_MEDICO_ID } from "@/lib/contact";
+
 export default function About() {
   // EDITAR: Reemplaza con los datos reales (universidad, especialización, años, etc.)
   const credentials = [
     "Médico Cirujano titulada",
-    "Amplia experiencia en atención primaria",
     "Formación continua y certificaciones actualizadas",
     "Atención a pacientes dentro y fuera de Venezuela",
+    "Consultas por videollamada con total privacidad",
   ];
 
   return (
@@ -34,13 +36,48 @@ export default function About() {
               juntos sobre tu salud. No hay preguntas tontas: todas importan.
             </p>
             <p>
-              Atiendo tanto de forma <strong>presencial</strong> como{" "}
-              <strong>en línea</strong>, lo que me permite acompañar a pacientes
-              dentro de Venezuela y a quienes están en el exterior.
+              Todas mis consultas son <strong>100% en línea por videollamada</strong>,
+              lo que me permite acompañar a pacientes dentro de Venezuela y a
+              quienes están en el exterior, sin que tengas que moverte de casa.
             </p>
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 space-y-5">
+            <div className="rounded-2xl border-2 border-[var(--color-brand)] bg-white p-6 shadow-sm">
+              <div className="flex items-center gap-3">
+                <span
+                  aria-hidden="true"
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-brand)] text-white"
+                >
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M9 12l2 2 4-4" />
+                    <path d="M12 22s-8-4-8-12V5l8-3 8 3v5c0 8-8 12-8 12z" />
+                  </svg>
+                </span>
+                <h3 className="font-display text-lg font-semibold">
+                  Matrícula oficial
+                </h3>
+              </div>
+              <dl className="mt-4 space-y-2.5 text-base">
+                <div className="flex items-baseline justify-between gap-3 border-b border-rose-100 pb-2">
+                  <dt className="text-slate-600">MPPS</dt>
+                  <dd className="font-semibold text-[var(--color-brand-dark)] tabular-nums">
+                    Nº {MPPS_ID}
+                  </dd>
+                </div>
+                <div className="flex items-baseline justify-between gap-3">
+                  <dt className="text-slate-600">Colegio Médico</dt>
+                  <dd className="font-semibold text-[var(--color-brand-dark)] tabular-nums">
+                    Nº {COLEGIO_MEDICO_ID}
+                  </dd>
+                </div>
+              </dl>
+              <p className="mt-3 text-xs text-slate-500 leading-snug">
+                Matrícula de Sanidad vigente. Ejercicio profesional registrado
+                ante las autoridades de salud de Venezuela.
+              </p>
+            </div>
+
             <div className="rounded-2xl border border-rose-100 bg-[var(--color-brand-soft)] p-6">
               <h3 className="font-display text-xl font-semibold">
                 Formación y experiencia

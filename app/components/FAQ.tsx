@@ -4,8 +4,12 @@ const faqs = [
     a: "Escríbeme un mensaje por WhatsApp y coordinamos día y hora. Es la forma más rápida y directa. No necesitas llenar formularios.",
   },
   {
-    q: "¿Atiendes consultas en línea?",
-    a: "Sí. Ofrezco consultas por videollamada para pacientes que estén fuera de Venezuela o que no puedan trasladarse. Solo necesitas tu teléfono o computador con cámara.",
+    q: "¿Las consultas son en línea o presenciales?",
+    a: "Todas mis consultas son 100% en línea, por videollamada. Esto me permite atender a pacientes en toda Venezuela y a quienes viven en el exterior. Solo necesitas un teléfono o computador con cámara y conexión a internet.",
+  },
+  {
+    q: "¿Qué necesito para conectarme?",
+    a: "Un teléfono inteligente o computador con cámara, audífonos si puedes, y una conexión a internet estable. Te envío el enlace de la videollamada por WhatsApp antes de la cita — solo haces clic y listo.",
   },
   {
     q: "¿Cómo realizo el pago?",

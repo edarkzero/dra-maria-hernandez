@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { WHATSAPP_URL, DOCTOR_NAME } from "@/lib/contact";
+import { WHATSAPP_URL, DOCTOR_NAME, CREDENTIALS_LINE } from "@/lib/contact";
 
 export default function Hero() {
   return (
@@ -14,17 +14,22 @@ export default function Hero() {
         <div className="order-2 md:order-1 text-center md:text-left">
           <span className="inline-flex items-center gap-2 rounded-full border border-rose-200 bg-white/80 px-4 py-1.5 text-sm font-medium text-[var(--color-brand-dark)] shadow-sm">
             <span aria-hidden="true" className="h-2 w-2 rounded-full bg-[var(--color-brand)]" />
-            Atención médica profesional
+            Consulta médica 100% en línea
           </span>
 
           <h1 className="mt-5 font-display text-4xl font-semibold sm:text-5xl lg:text-6xl">
             {DOCTOR_NAME}
           </h1>
 
+          <p className="mt-3 text-sm font-medium text-[var(--color-brand-dark)]/80">
+            {CREDENTIALS_LINE}
+          </p>
+
           <p className="mt-5 text-lg sm:text-xl text-slate-700 max-w-xl mx-auto md:mx-0">
             {/* EDITAR: puedes personalizar este mensaje de bienvenida */}
             Cuido tu salud con cariño, cercanía y profesionalismo.
-            Consultas claras, sin apuros y en un lenguaje que puedes entender.
+            Consultas por videollamada desde donde estés, en un lenguaje
+            que puedes entender.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-3 sm:gap-4 justify-center md:justify-start">
@@ -48,8 +53,8 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 grid grid-cols-3 gap-4 max-w-md mx-auto md:mx-0 text-left">
-            <Stat value="100%" label="Atención personal" />
-            <Stat value="Online" label="& Presencial" />
+            <Stat value="100%" label="En línea" />
+            <Stat value="Personal" label="Atención cercana" />
             <Stat value="LATAM" label="y exterior" />
           </div>
         </div>

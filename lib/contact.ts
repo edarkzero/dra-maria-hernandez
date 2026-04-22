@@ -10,3 +10,7 @@ export const TEL_URL = `tel:+${PHONE_RAW}`;
 
 export const DOCTOR_NAME = "Dra. Maria Hernandez N.";
 export const DOCTOR_SHORT = "Dra. Maria Hernandez";
+
+export const MPPS_ID = "18083";
+export const COLEGIO_MEDICO_ID = "972";
+export const CREDENTIALS_LINE = `MPPS ${MPPS_ID} · Colegio Médico Nº ${COLEGIO_MEDICO_ID}`;

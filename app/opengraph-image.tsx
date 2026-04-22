@@ -20,25 +20,47 @@ export default function Image() {
           fontFamily: "Georgia, serif",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 84,
+                height: 84,
+                borderRadius: 999,
+                background: "#db2777",
+                color: "white",
+                fontSize: 44,
+                fontWeight: 700,
+              }}
+            >
+              M
+            </div>
+            <div style={{ fontSize: 30, color: "#9d174d", fontWeight: 600 }}>
+              Consulta Médica 100% en línea
+            </div>
+          </div>
           <div
             style={{
               display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              width: 84,
-              height: 84,
+              padding: "10px 22px",
               borderRadius: 999,
-              background: "#db2777",
-              color: "white",
-              fontSize: 44,
-              fontWeight: 700,
+              background: "#ffffff",
+              color: "#9d174d",
+              fontSize: 22,
+              fontWeight: 600,
+              border: "2px solid #fbcfe8",
             }}
           >
-            M
-          </div>
-          <div style={{ fontSize: 30, color: "#9d174d", fontWeight: 600 }}>
-            Consulta Médica Profesional
+            MPPS 18083
           </div>
         </div>
 
@@ -87,7 +109,7 @@ export default function Image() {
             />
             Agenda por WhatsApp
           </div>
-          <div>Venezuela · Consulta en línea</div>
+          <div>Venezuela y el exterior · Videoconsulta</div>
         </div>
       </div>
     ),

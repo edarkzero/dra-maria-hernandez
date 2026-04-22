@@ -5,6 +5,7 @@ import {
   WHATSAPP_URL,
   INSTAGRAM_URL,
   INSTAGRAM_HANDLE,
+  CREDENTIALS_LINE,
 } from "@/lib/contact";
 
 export default function Footer() {
@@ -26,7 +27,11 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 text-rose-100/90 max-w-xs">
-              Atención médica cercana, clara y profesional. Presencial y en línea.
+              Consulta médica 100% en línea. Atención cercana, clara y profesional
+              desde donde estés.
+            </p>
+            <p className="mt-3 text-sm text-rose-100/80 font-medium">
+              {CREDENTIALS_LINE}
             </p>
           </div>
 
